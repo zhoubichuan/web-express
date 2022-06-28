@@ -12,7 +12,7 @@ git push gitee master
 npm run src:build
 
 # 3.进入打包目录
-cd dist
+cd web-express
 
 # 4.发布到gh-pages分支
 git init
