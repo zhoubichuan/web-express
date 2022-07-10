@@ -8,11 +8,6 @@ module.exports = {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true // 代码块显示行号
   },
-  // head: [
-  //   ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
-  //   ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }]
-  // ],
-
   plugins: {
     // 名称：@vuepress/plugin-pwa 网页内容有更新的时候有刷新按钮。可以把网页保存到桌面，当一个app一样
     '@vuepress/pwa': {
@@ -50,53 +45,54 @@ module.exports = {
     editLinkText: '在github上编辑此页',
     sidebarDepth: 2,
     lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
-    nav: [{
-      text: '基础知识',
-      items: [
-        {
-          text: '一.桌面版实践',
-          link: '/base/1.desktop/1.index',
-        },
-        {
-          text: '二.命令实践',
-          link: '/base/2.practice/1.docker',
-        },
-        {
-          text: '三.Docker基础',
-          link: '/base/3.knowledge/1.index'
-        }
-      ]
-    },
-    {
-      text: '高级知识',
-      items: [
-        {
-          text: '一.组件精讲',
-          link: '/senior/use/1.recursionAndDynamics'
-        },
-        {
-          text: '二.TypeScript',
-          link: '/senior/typeScript'
-        },
-      ]
-    },
-    {
-      text: '源码知识',
-      items: [
-        {
-          text: '1.vue源码解析',
-          link: '/source/vue/1.preparation'
-        },
-        {
-          text: '2.vuex源码解析',
-          link: '/source/vuex'
-        },
-        {
-          text: '3.vue-router源码解析',
-          link: '/source/vue-router'
-        },
-      ]
-    }
+    nav: [
+      {
+        text: '基础知识',
+        items: [
+          {
+            text: '一.Express的工程化',
+            link: '/base/1.desktop/1.index',
+          },
+          {
+            text: '二.Express功能模块',
+            link: '/base/2.practice/1.docker',
+          },
+          {
+            text: '三.Express基础知识',
+            link: '/base/3.knowledge/1.index'
+          }
+        ]
+      },
+      {
+        text: '高级知识',
+        items: [
+          {
+            text: '一.中间件',
+            link: '/senior/use/1.recursionAndDynamics'
+          },
+          {
+            text: '二.TypeScript',
+            link: '/senior/typeScript'
+          },
+        ]
+      },
+      {
+        text: '源码知识',
+        items: [
+          {
+            text: '1.vue源码解析',
+            link: '/source/vue/1.preparation'
+          },
+          {
+            text: '2.vuex源码解析',
+            link: '/source/vuex'
+          },
+          {
+            text: '3.vue-router源码解析',
+            link: '/source/vue-router'
+          },
+        ]
+      }
     ],
     sidebar: {
       '/base/1.desktop/': [
