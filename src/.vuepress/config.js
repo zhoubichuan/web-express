@@ -50,15 +50,15 @@ module.exports = {
         text: '基础知识',
         items: [
           {
-            text: '一.Express的工程化',
-            link: '/base/1.desktop/1.index',
+            text: '一.express基础',
+            link: '/base/express/1.index',
           },
           {
             text: '二.Express功能模块',
             link: '/base/2.practice/1.docker',
           },
           {
-            text: '三.Express基础知识',
+            text: '三.Express实践',
             link: '/base/3.knowledge/1.index'
           }
         ]
@@ -68,7 +68,7 @@ module.exports = {
         items: [
           {
             text: '一.中间件',
-            link: '/senior/use/1.recursionAndDynamics'
+            link: '/senior/use/1.index'
           },
           {
             text: '二.TypeScript',
@@ -95,7 +95,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/base/1.desktop/': [
+      '/base/express/': [
         '1.index',
         '2.Jenkins',
         '3.gitlab',
@@ -139,7 +139,7 @@ module.exports = {
         // '21'
       ],
       '/senior/use/': [
-        '1.recursionAndDynamics',
+        '1.index',
         '2.extend',
         '3.componentCommunication',
         '4.render',
